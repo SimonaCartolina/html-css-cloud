@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    background-color: #FFFAF0;
+    font-style: sans-serif;
+  }
+  
+  .flex{
+    display:flex;
+    flex-wrap:wrap;
+  }
+  
+  main{
+    margin-top:3rem;
+  }
+  header{
+    position:relative;
+    height:3rem;
+    font-size: 1.5rem;
+  
+  }
+  #titolo{
+    position:absolute;
+    color:black;
+    left:0
+  }
+  h3{
+    position:absolute;
+    right:0;
+    color:blue;
+  
+  }
+  img{
+    object-fit: cover;
+    height: 100%;
+    width:100%;
+  }
+  .venti{
+    width:22%;
+    margin-right:1.5rem;
+    margin-bottom:2rem;
+  }
+  .container{
+    width:70%;
+    margin:0 auto;
+    justify-content: center;
+    margin-top:10rem;
+    border-top:1px solid grey;
+    border-bottom:1px solid grey;
+  }
+  .container-main{
+    width:70%;
+    margin:0 auto;
+    margin-top:2rem;
+    justify-content: center;
+  
+  }
+  .foto{
+    width:13rem;
+    height:10rem;
+  }
+  .più{
+    color:blue;
+    font-size:40px;
+  }
+  .numeri{
+    color:grey;
+  }
